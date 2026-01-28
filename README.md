@@ -1,6 +1,8 @@
 # OpenStick Image Builder
 Image builder for MSM8916 based 4G modem dongles
 
+This report focusing on H806.
+
 This builder uses the precompiled [kernel](https://pkgs.postmarketos.org/package/v24.06/postmarketos/aarch64/linux-postmarketos-qcom-msm8916) provided by [postmarketOS](https://postmarketos.org/) for Qualcomm MSM8916 devices.
 
 > [!NOTE]
@@ -8,10 +10,10 @@ This builder uses the precompiled [kernel](https://pkgs.postmarketos.org/package
 
 ## Build Instructions
 ### Build locally
-This has been tested to work on **Ubuntu 22.04**
+This has been tested to work on **Ubuntu 24.04**
 - clone
   ```shell
-  git clone --recurse-submodules https://github.com/kinsamanka/OpenStick-Builder.git
+  git clone --recurse-submodules https://github.com/Shan0h/OpenStick-Builder.git
   cd OpenStick-Builder/
   ```
 #### Quick
@@ -156,6 +158,7 @@ Edit [`scripts/setup.sh`](scripts/setup.sh) to add/remove packages. Note that th
      - `thwc-uf896` for **UF896** boards
      - `thwc-ufi001c` for **UFIxxx** boards
      - `jz01-45-v33` for **JZxxx** boards
+     - `jz08-v40-a` for **H806** boards
      - `fy-mf800` for **MF800** boards
 
 - To maximize the `rootfs` partition
