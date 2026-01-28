@@ -1,7 +1,7 @@
 # OpenStick Image Builder
 Image builder for MSM8916 based 4G modem dongles
 
-This report focusing on H806.
+This report focusing on Mifi H806.
 
 This builder uses the precompiled [kernel](https://pkgs.postmarketos.org/package/v24.06/postmarketos/aarch64/linux-postmarketos-qcom-msm8916) provided by [postmarketOS](https://postmarketos.org/) for Qualcomm MSM8916 devices.
 
